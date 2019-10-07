@@ -41,6 +41,7 @@ var Product = React.createClass({
     this.setState({qty: this.state.qty + 1});
     // alert("You selected android "); 
     
+//     Call to component ProductList, method calculateTotal
     this.props.handleTotal(this.props.price);
   },
   
