@@ -1,0 +1,11 @@
+npm install express
+npm i nodemon
+npm i morgan
+npm i dotenv
+npm i mongoose
+npm i body-parser
+npm i express-validator
+
+
+npm install
+npm run dev
