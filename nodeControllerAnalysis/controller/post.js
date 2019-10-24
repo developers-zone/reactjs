@@ -49,7 +49,7 @@ exports.createWC = (req, res)=>{
 };
 
 exports.getWC = (req, res)=>{
-	const post = Post.find()
+	const post = Post.find().select("_id code")
 					 .then(post=>{
 					 	res.status(200).json({posts:post});
 					 })
